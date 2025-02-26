@@ -59,7 +59,6 @@ public class KeyboardKey : MonoBehaviour
 
         renderers.color = Color.yellow;
         validity = Validity.Potential;
-
     }
 
     public void SetInvalid()
@@ -69,7 +68,6 @@ public class KeyboardKey : MonoBehaviour
 
         renderers.color = Color.gray;
         validity = Validity.Invalid;
-
     }
 
     public bool IsUntouched()
